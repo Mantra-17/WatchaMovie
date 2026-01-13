@@ -1,16 +1,77 @@
-# React + Vite
+# 🎬 WatchaMovie  
+### Discover. Search. Explore Movies Effortlessly 🍿
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **Live Demo:**  
+👉 https://movieeheist.netlify.app/
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 About the Project
 
-## React Compiler
+**WatchaMovie** is a sleek and modern movie discovery web application that allows users to search for movies, explore popular titles, and view detailed movie information — all in one place.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Built with performance, clean UI, and simplicity in mind, this project showcases how to integrate third-party APIs into a real-world frontend application.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+🎥 Search movies by name  
+🔥 Browse popular & trending movies  
+📝 View movie details (poster, year, type, plot)  
+⚡ Fast & responsive UI  
+🌙 Dark-themed modern design  
+🌍 Live API data from OMDb  
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6+)**
+- **Vite**
+- **OMDb API**
+- **Netlify (Deployment)**
+
+---
+
+## 📸 Preview
+
+> A clean and intuitive interface designed for movie lovers 🎞️  
+(Search, browse, and explore movies with ease)
+
+---
+
+## 🚀 Live Deployment
+
+The project is deployed using **Netlify** and is live here:
+
+🔗 **https://movieeheist.netlify.app/**
+
+Every update pushed to GitHub is automatically deployed 🚀
+
+---
+
+## ⚙️ How It Works
+
+- Uses the **OMDb API** to fetch real-time movie data
+- Implements async API calls using `fetch`
+- Handles empty results and errors gracefully
+- Optimized API calls to avoid rate limiting
+
+---
+
+## 🧑‍💻 Local Setup (Run on Your Machine)
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/Mantra-17/WatchaMovie.git
+2. cd WatchaMovie
+
+3. npm install
+
+4. VITE_OMDB_API_KEY=your_api_key_here
+
+5. npm run dev
+
